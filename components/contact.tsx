@@ -11,7 +11,7 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    window.location.href = `mailto:kmd21@mail.aub.edu?subject=Portfolio Contact from ${formData.name}&body=${encodeURIComponent(formData.message)}`;
+    window.location.href = `mailto:daaboulkarim37@gmail.com?subject=Portfolio Contact from ${formData.name}&body=${encodeURIComponent(formData.message)}`;
     setSent(true);
   };
 
@@ -27,7 +27,7 @@ export default function Contact() {
 
           <div className="flex flex-col gap-3">
             {[
-              { icon: Mail, label: "Email", value: "kmd21@mail.aub.edu", href: "mailto:kmd21@mail.aub.edu" },
+              { icon: Mail, label: "Email", value: "daaboulkarim37@gmail.com", href: "mailto:daaboulkarim37@gmail.com" },
               { icon: Linkedin, label: "LinkedIn", value: "karim-daaboul", href: "https://linkedin.com/in/karim-daaboul" },
               { icon: Github, label: "GitHub", value: "karim-daaboul", href: "https://github.com/karim-daaboul" },
             ].map(({ icon: Icon, label, value, href }) => (
@@ -57,9 +57,9 @@ export default function Contact() {
               <Terminal size={12} /> <span>availability.sh</span>
             </div>
             <div className="space-y-1.5 text-muted-foreground">
-              <p><span className="text-primary">✓</span> Open to research internships</p>
-              <p><span className="text-primary">✓</span> Available for cybersecurity collaborations</p>
-              <p><span className="text-primary">✓</span> Available for full-time roles</p>
+              <p><span className="text-primary">✓</span> Open to Research Internships</p>
+              <p><span className="text-primary">✓</span> Available for Cybersecurity Collaborations</p>
+              <p><span className="text-primary">✓</span> Available for Full-Time Roles</p>
             </div>
           </div>
         </div>
